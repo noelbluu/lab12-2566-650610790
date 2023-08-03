@@ -66,7 +66,7 @@ export default function HomePage() {
     <div
       style={{
         backgroundColor: theme.bgColor,
-        minHeight: "100vh",
+        minHeight: "100dvh",
       }}
     >
       <ThemeContext.Provider
@@ -78,7 +78,7 @@ export default function HomePage() {
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="650610560" />
+      <Footer year="2023" fullName="Panida Suthapakti" studentId="650610790" />
     </div>
   );
 }
